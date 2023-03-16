@@ -1,0 +1,53 @@
+.app {
+  background-color: black;
+  color: greenyellow;
+  min-height: -webkit-fill-available;
+  min-height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+ 
+}
+
+input {
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  color: greenyellow;
+  width: 100%;
+  font-family: "Courier New";
+  margin-left: 5px;
+  font-size: 15px
+  
+  
+}
+
+.command-div{
+  font-family: "Courier New";
+}
+
+.terminal {
+  white-space: pre-line;
+}
+
+.welcome{
+  font-family: "Courier New";
+  font-size: 15px;
+}
+
+.container{
+  display:flex;
+  justify-content: space-between;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a{
+  color:greenyellow;
+  text-decoration: none;
+  cursor: auto;
+}
