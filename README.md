@@ -1,3 +1,6 @@
+---
+permalink: /index.html
+---
 Live demo:
 
  https://mplastrik.github.io/terminal-portfolio/
