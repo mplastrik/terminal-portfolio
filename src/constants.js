@@ -23,6 +23,10 @@ export const commands = [
     {
         name: "social -a",
         description: "outputs links to my social media accounts"
+    },
+    {
+        name: "clear",
+        description: "clears the terminal"
     }
     
 ]

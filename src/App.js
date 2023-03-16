@@ -62,6 +62,10 @@ function App() {
                 case "social -a":
                   newOutput = <div>{output} <Socials /> <User /> </div>;
                   break;
+                
+                case "clear":
+                  newOutput = <div> <User/> </div>;
+                  break;
 
                 default:
                   newOutput = <div>{output}<p className="command-div">$ Unknown Command. Type 'help' to see a list of commands.</p> <User /> </div>
