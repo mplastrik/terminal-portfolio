@@ -61,3 +61,20 @@ export const socials = [
         url: "https://www.linkedin.com/in/matthew-plastrik/"
     }
 ]
+
+export const projects = [
+    {
+        name: "Personal Portfolio",
+        githubRepoUrl: "",
+        deployedUrl: "",
+        description: "This is a personal portfolio website I build using React, Tailwind css and three.js"
+
+    },
+    {
+        name: "Terminal Portfolio",
+        githubRepoUrl: "https://github.com/mplastrik/terminal-portfolio",
+        deployedUrl: "https://mplastrik.github.io/terminal-portfolio/",
+        description: "This is a version of my personal portfolio inspired by command line interfaces"
+
+    }
+]
